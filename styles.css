@@ -7,12 +7,14 @@ body {
 h1 {
     color: deeppink;
     margin-bottom: 0;
+    letter-spacing: -0.05rem;
 }
 h2 {
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     font-weight: normal;
     margin-top: 0.2rem;
+    margin-bottom: 2rem;
 }
 
 p {
@@ -33,7 +35,7 @@ p {
 }
 
 section {
-    padding-top: 2rem;
+    padding-top: 1rem;
     padding-bottom: 5rem;
 }
 
