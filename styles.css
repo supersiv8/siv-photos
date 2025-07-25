@@ -1,6 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #123524;
+    margin: 30px 22px 0 22px
 }
 
 h1 {
@@ -11,7 +12,7 @@ h2 {
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     font-weight: normal;
-    margin-top: 0.25rem;
+    margin-top: 0.2rem;
 }
 
 p {
