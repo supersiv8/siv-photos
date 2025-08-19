@@ -9,6 +9,10 @@ h1 {
     margin-bottom: 0;
     letter-spacing: -0.05rem;
 }
+
+h1.bw {
+    color: #253529;
+}
 h2 {
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
@@ -19,6 +23,18 @@ h2 {
 
 p {
     margin: 0 0 0.25rem 0;
+}
+
+
+
+section {
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+}
+
+footer {
+    padding-top: 1rem;
+    font-size: small;
 }
 
 ._110 {
@@ -34,26 +50,25 @@ p {
     object-fit: cover;
 }
 
-section {
-    padding-top: 1rem;
-    padding-bottom: 5rem;
-}
 
-footer {
-    padding-top: 1rem;
-    font-size: small;
+._120 img {
+    width: 100%;
+    margin: auto;
+    max-width: 960px;
+    display: block;
+    margin-bottom: 200px;
 }
 
 .popup {
   display: none;
   position: fixed;
   top: 50%;
- /* left: 50%; */
- /* transform: translateX(-50%); */
+ left: 50%;
+  transform: translateX(-50%); 
   background: white;
   padding: 1rem;
-  border: 2px solid #333;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  border: 1px solid #123524;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
   z-index: 1000;
 }
 .popup:target {
