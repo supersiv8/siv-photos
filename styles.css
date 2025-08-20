@@ -32,12 +32,12 @@ p {
 
 
 section {
-    padding-top: 1rem;
+    padding-top: 3rem;
     padding-bottom: 5rem;
 }
 
 footer {
-    padding-top: 1rem;
+    padding: 1rem 0 3rem 0;
     font-size: small;
 }
 
