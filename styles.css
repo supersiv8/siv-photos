@@ -4,6 +4,10 @@ body {
     margin: 30px 22px 0 22px
 }
 
+body._120 {
+    background-image: url('img/2025-diana-landsleir/landsleir-logo-bw.webp')
+}
+
 h1 {
     color: deeppink;
     margin-bottom: 0;
